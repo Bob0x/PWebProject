@@ -1,0 +1,24 @@
+header{
+    text-align: center;
+}
+header > img{
+    width: 30%;
+}
+nav {
+    display: flex;
+    justify-content: space-between; 
+    /* distribuisce in modo uniforme */
+    width: 100%;
+}
+
+nav > a {
+    flex: 1; 
+    /* ogni bottone occupa uguale spazio */
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+nav > a:hover {
+    background-color: #ddd;
+}
